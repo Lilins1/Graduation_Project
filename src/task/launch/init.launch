@@ -1,0 +1,9 @@
+<launch>
+    <!-- <include file = "$(find realsense2_camera)/launch/rs_t265.launch"/> -->
+    <!-- <include file = "$(find rplidar_ros)/launch/rplidar_a2m7.launch"/> -->
+    <!-- <node pkg="task" name="server" type="server.py" output="screen"/> -->
+    <node pkg="task" name="uart" type="uart.py" output="screen"/>
+    <!-- <node pkg="task" name="io" type="io.py" output="screen"/> -->
+    <!-- <node pkg="task" name="pwm" type="pwm.py" output="screen"/> -->
+    <node pkg="task" name="analysis" type="analysis.py" output="screen"/>
+</launch>

@@ -1,0 +1,8 @@
+prefix=/home/orangepi/shufly/install
+
+Name: task
+Description: Description of task
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: rospy std_msg message_runtime

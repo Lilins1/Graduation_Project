@@ -1,0 +1,2 @@
+navstack_pub:nlink_parser:pi_car:realsense-ros/realsense2_camera:realsense-ros/realsense2_description:rplidar_ros:task
+-DCATKIN_DEVEL_PREFIX=/home/orangepi/shufly/devel -DCMAKE_INSTALL_PREFIX=/home/orangepi/shufly/install -G Unix Makefiles
